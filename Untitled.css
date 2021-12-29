@@ -1,0 +1,229 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#top{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+
+}
+#top div{
+    margin-right: 25px;
+}
+
+ a.gmail{
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+.gmail:hover{
+    text-decoration: underline;
+}
+ a.images{
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+} 
+.images:hover{
+    text-decoration: underline;
+}
+
+.dotsimg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.ddots:hover{
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 10px #eeeef0,-2px -2px 3px 10px #eeeef0;
+
+}
+ a.signintop{
+     background-color:#2b7de9 ;
+     color: white;
+     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+     text-decoration: none;
+     padding: 9px 27px;
+     border: 1px transparent;
+     border-radius: 5px;
+     font-size: 14px;
+ }
+ .signintop:hover{
+     background-color:#2b7de9;
+     opacity: 0.9;
+ }
+ #center{
+     margin-top: 50px;
+ }
+ .dgooglepic{
+     text-align: center;
+ }
+ .googlepic{
+
+     width: 272px;
+     height: 92px;
+ }
+ .dsearchbar{
+     text-align: center;
+     margin-top: 22px;
+ }
+ .searchbar{
+
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 48px;
+     padding-right: 20px;
+     outline: 0;
+     width: 555px;
+     border-radius: 20px;
+     border: 1.5px solid rgb(212, 209, 209);
+     font-size: large;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLdBmPu0oQfvy7RAuhcuOJfvL9QYbN_hcOdebOR6966-KnZvIjpVrfg1WV6hMZ5wYuzyY&usqp=CAU");
+     background-repeat: no-repeat;
+     background-size: 20px;
+     background-position: left;
+     background-position-x: 20px;
+ }
+ .searchbar:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+ }
+
+ #dtextbelowsearchbar{
+       margin-top: 30px;
+       display: flex;
+       justify-content: center;
+
+ }
+ .googlesearch {
+     margin-right: 10px;
+     font-family: arial,sans-serif;
+     padding: 9px 18px;
+     background-color: #f8f9fa;
+     color: #202124;
+     font-size: 14px;
+     cursor: pointer;
+     border: 1px solid transparent;
+
+}
+.googlesearch:hover{
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    border-radius: 3px;
+}
+
+ #dlanguages{
+     margin-top: 26px;
+     display: flex;
+     justify-content: center;
+ }
+ .goi-1{
+     margin-right: 10px;
+     color: #3c4043;
+     display: inline-block;
+     line-height: 28px;
+     font-size: small;
+     font-family: Arial, sans-serif;
+ }
+ div.lan{
+     margin-right: 10px;
+     text-decoration: none;
+     color: #1a0dab;
+     line-height: 28px;
+     font-size: small;
+     font-family: Arial, sans-serif;
+     cursor: pointer;
+ }
+ .lan:hover{
+     text-decoration: underline;
+ }
+#bottom{
+
+    margin-top: 190px;
+
+}
+.india{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color:#f8f9fa; 
+    line-height: 28px;
+    color: #70757a;
+    border-bottom:1px solid #dddfe0; 
+}
+
+.lastline{
+    display: flex;
+    background-color:#f8f9fa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+.al a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 25px;
+
+    color: #70757a;
+    text-decoration: none;
+}
+.al a:hover{
+    text-decoration: underline;
+}
+.arp a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 25px;
+    margin-left: 760px;
+    color: #70757a;
+    text-decoration: none; 
+}
+.arp a:hover{
+    text-decoration: underline;
+}
+.ar a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 20px;
+
+    color: #70757a;
+    text-decoration: none;
+}
+.settings{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 20px;
+
+    color: #70757a;
+    text-decoration: none;
+    cursor: pointer; 
+    line-height: 28px;
+}
+.settings:hover{
+    text-decoration: underline;
+}
+.ar a:hover{
+text-decoration: underline;
+} 
